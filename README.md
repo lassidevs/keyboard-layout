@@ -10,10 +10,10 @@ I have a need for Finnish characters in my job and day-to-day life. This proves 
 3. Open MSKLC and load the aforementioned source file. Then click Project > Build DLL and setup package > complete the setup.
 - The build process can take a few minutes. After the build completes, it'll add several installer files to your home directory, for me it was "C:\Users\{username}\Documents\usintgr"
 4. Run The installer
-- Depending on your computer's architecture, you'll run the appropriate installer shown below. To check you architecture, open cmd and run command "wmic os get osarchitecture"
-Run the _amd64 suffixed installer if you're running a 64-bit version of Windows running on a standard x64 (AMD or Intel) processor. This is likely what you'll be running. <br /><br />
-Run the _i386 suffixed installer if you're running a 32-bit version of windows. <br /><br />
-Run the _ia64 suffixed installer if you're running an intel Itanium microprocessor. This chip was dicontinued ages ago and is highly unlikely you have it. <br /><br />
+- Depending on your computer's architecture, you'll run the appropriate installer shown below. To check you architecture, open cmd and run command "wmic os get osarchitecture" <br /><br />
+-Run the _amd64 suffixed installer if you're running a 64-bit version of Windows running on a standard x64 (AMD or Intel) processor. This is likely what you'll be running. <br />
+-Run the _i386 suffixed installer if you're running a 32-bit version of windows. <br />
+-Run the _ia64 suffixed installer if you're running an intel Itanium microprocessor. This chip was dicontinued ages ago and is highly unlikely you have it. <br />
 
 5. Restart PC
 - Since the installer makes registry changes, you'll need to restart your pc for the changes to propagate and see your newly installed keyboard.
