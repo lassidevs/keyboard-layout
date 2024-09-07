@@ -2,7 +2,7 @@
 
 This repo contains a klc build script for Microsoft Keyboard Layout Creator. 
 
-I have a need for Finnish characters in my job and day-to-day life. This proves difficult as I'm running a US keyboard for programming, which doesn't include characters like ä and ö. Normally a fix would be to use English (United States) international layout, but this comes with dead keys that messes up writing flow and adds unwanted features. This script initiates a normal US international layout with support for non-ASCII characters (such as ä and ö), but removes dead keys completely. 
+I have a need for Finnish characters in my job and day-to-day life. This proves difficult as I'm running a US keyboard for programming, which doesn't include characters like ä and ö. Normally a fix would be to use English (United States) international layout, but this comes with dead keys that messes up writing flow and adds unwanted features. This script builds a normal US international layout with support for non-ASCII characters (such as ä and ö), but removes dead keys completely. 
 
 ## How to use
 1. **Install MSKLC** from https://www.microsoft.com/en-us/download/details.aspx?id=102134
